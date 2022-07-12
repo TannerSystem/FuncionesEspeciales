@@ -25,7 +25,7 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
 	
-	// Devolvemos el resultado actual.
+	// Devolvemos el resultado actualizado.
 	
 	return Resultado;
 	
