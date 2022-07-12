@@ -23,6 +23,8 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	Resultado.Set_Num_2 (Valores_A.Get_Num_2 () + Valores_B.Get_Num_2 ());
 	
+	int Numero;
+	
 	// Impresiones.
 	
 	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
