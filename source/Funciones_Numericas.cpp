@@ -13,6 +13,8 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	Numericos Resultado (0.0 , 0.0);
 	
+	// Comentario 2.
+	
 	// Asignaremos la suma en cada valor.
 	
 	Resultado.Set_Num_1 (Valores_A.Get_Num_1 () + Valores_B.Get_Num_1 ());
