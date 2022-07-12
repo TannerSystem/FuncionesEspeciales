@@ -21,6 +21,9 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	Resultado.Set_Num_2 (Valores_A.Get_Num_2 () + Valores_B.Get_Num_2 ());
 	
+	
+	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
+	
 	// Devolvemos el resultado.
 	
 	return Resultado;
@@ -43,6 +46,8 @@ Numericos Restador::Resta (const Numericos & Valores_A , const Numericos & Valor
 	// Asignaremos la resta en cada valor.
 	
 	Resultado.Set_Num_2 (Valores_A.Get_Num_2 () - Valores_B.Get_Num_2 ());
+	
+	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
 	
 	// Devolvemos el resultado.
 	

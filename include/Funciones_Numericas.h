@@ -6,6 +6,11 @@
 
 #include <Numericos.h>
 
+// Consola.
+
+#include <stdio.h>
+#include <stdlib.h>
+
 // -----------------------------------------------------------------------------
 
 // Aqui establecemos el elemento para la utilizacion de los numericos.
