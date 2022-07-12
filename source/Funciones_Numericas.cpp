@@ -9,7 +9,7 @@
 
 Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores_B) {
 	
-	// Creamos un nuevo númerico.
+	// Creamos un nuevo nÃºmerico.
 	
 	Numericos Resultado (0.0 , 0.0);
 	
@@ -25,7 +25,7 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
 	
-	// Devolvemos el resultado.
+	// Devolvemos el resultado actual.
 	
 	return Resultado;
 	
@@ -35,7 +35,7 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 
 Numericos Restador::Resta (const Numericos & Valores_A , const Numericos & Valores_B) {
 	
-	// Creamos un nuevo númerico.
+	// Creamos un nuevo nÃºmerico.
 	
 	Numericos Resultado (0.0 , 0.0);
 	
